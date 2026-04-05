@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todo-app</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <header class="quote-container">
+      <p id="quote-text">Loading quote...</p>
+      <span id="quote-author"></span>
+    </header>
+    <main>
+      <div class="container">
+        <h1>Task Manager</h1>
+
+        <section class="add-task">
+          <input
+            type="text"
+            id="task-input"
+            class="js-task-input"
+            placeholder="Write a new task..."
+          />
+          <button class="add-task-btn js-add-task-btn">Add Task</button>
+        </section>
+
+        <section class="filters">
+          <input
+            type="search"
+            id="search-input"
+            class="filter-btn js-search-input"
+            placeholder="Search tasks..."
+          />
+          <button class="filter-btn js-filter-btn" data-filter="all">
+            All
+          </button>
+          <button class="filter-btn js-filter-btn" data-filter="active">
+            Active
+          </button>
+          <button class="filter-btn js-filter-btn" data-filter="completed">
+            Completed
+          </button>
+          <button class="filter-btn js-clear-completed">Clear Completed</button>
+        </section>
+
+        <ul class="task-list js-task-list"></ul>
+      </div>
+    </main>
+
+    <script type="module" src="../src/main.js"></script>
+  </body>
+</html>
