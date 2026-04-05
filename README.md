@@ -72,24 +72,6 @@ This project demonstrates clean architecture, state management, DOM manipulation
 
 ---
 
-## 📂 Project Structure
-todo-app/
-│
-├── index.html
-├── css/
-│ └── style.css
-│
-├── src/
-│ ├── main.js
-│ ├── TodoApp.js
-│ ├── TaskManager.js
-│ ├── Task.js
-│ └── QuoteService.js
-│
-└── screenshots/
-
----
-
 ## ▶️ How to Run
 
 1. Clone the repository
